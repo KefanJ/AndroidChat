@@ -41,11 +41,61 @@ namespace Android_Chat
 			}
 		}
 		
-		public partial class Layout
+		public partial class Drawable
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Main = 2130837504;
+			public const int Image1 = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int Image2 = 2130837505;
+			
+			static Drawable()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Drawable()
+			{
+			}
+		}
+		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f050001
+			public const int Login = 2131034113;
+			
+			// aapt resource value: 0x7f050003
+			public const int Mdp = 2131034115;
+			
+			// aapt resource value: 0x7f050004
+			public const int btnConnexion = 2131034116;
+			
+			// aapt resource value: 0x7f050000
+			public const int textViewLogin = 2131034112;
+			
+			// aapt resource value: 0x7f050002
+			public const int textViewMdp = 2131034114;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
+			{
+			}
+		}
+		
+		public partial class Layout
+		{
+			
+			// aapt resource value: 0x7f030000
+			public const int Main = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int pageForum = 2130903041;
 			
 			static Layout()
 			{
@@ -60,8 +110,11 @@ namespace Android_Chat
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f030000
-			public const int app_name = 2130903040;
+			// aapt resource value: 0x7f040001
+			public const int app_ip = 2130968577;
+			
+			// aapt resource value: 0x7f040000
+			public const int app_name = 2130968576;
 			
 			static String()
 			{
