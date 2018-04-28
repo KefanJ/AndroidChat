@@ -24,7 +24,14 @@ namespace Android_Chat.Modèle
         [JsonProperty("id")]
         public string id { get; set; }
 
-        
+        [JsonProperty("nom")]
+        public string nom { get; set; }
+
+
+        [JsonProperty("prenom")]
+        public string prenom { get; set; }
+
+
 
     }
 }
