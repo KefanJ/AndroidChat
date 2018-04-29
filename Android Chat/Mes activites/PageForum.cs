@@ -9,17 +9,29 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using Android_Chat.Modèle;
 
 namespace Android_Chat.Mes_activites
 {
-    [Activity(Label = "PageForum")]
+    [Activity(Label = "pageForum")]
     public class PageForum : Activity
     {
+        Database db;
+        Button btnSaboner;
+        Button btnNvSujet;
+        ListView lstSujet;
+        List<Sujet> lesSujets;
+        int idUser;
         protected override void OnCreate(Bundle savedInstanceState)
         {
+
             base.OnCreate(savedInstanceState);
 
-            // Create your application here
+            btnNvSujet = FindViewById<Button>(Resource.Id.btnNvSujet);
+            btnSaboner = FindViewById<Button>(Resource.Id.btnAbonner);
+            lstSujet = FindViewById<ListView>(Resource.Id.lstSujet);
+
+
         }
     }
 }

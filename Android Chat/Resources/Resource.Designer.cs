@@ -69,8 +69,20 @@ namespace Android_Chat
 			// aapt resource value: 0x7f050003
 			public const int Mdp = 2131034115;
 			
+			// aapt resource value: 0x7f050006
+			public const int btnAbonner = 2131034118;
+			
 			// aapt resource value: 0x7f050004
 			public const int btnConnexion = 2131034116;
+			
+			// aapt resource value: 0x7f050007
+			public const int btnNvSujet = 2131034119;
+			
+			// aapt resource value: 0x7f050005
+			public const int gridLayout1 = 2131034117;
+			
+			// aapt resource value: 0x7f050008
+			public const int lstSujet = 2131034120;
 			
 			// aapt resource value: 0x7f050000
 			public const int textViewLogin = 2131034112;
